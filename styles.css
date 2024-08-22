@@ -1,0 +1,61 @@
+body {
+    color: lightpink;
+    background: deeppink;
+    margin: 0px;
+    font-family: "DM Serif Text", serif;
+    margin-bottom: 150px;
+}
+
+header {
+    border-bottom: solid 3px lightpink;
+    padding: 25px;
+    font-size: 35px;
+    color: lightpink;
+}
+
+.chamada {
+    background:hotpink;
+    padding-bottom: 85px;
+    padding-top: 85px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 10%;
+}
+
+h1{
+    font-size: 45px;
+}
+
+p{
+    font-size: 25px;
+}
+
+
+.categoria-videos{
+    display:flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.categoria{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 55px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid blue;
+}
+
+.categoria h2{
+    color:lightpink;
+}
+
